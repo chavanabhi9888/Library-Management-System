@@ -1,0 +1,7 @@
+fastapi
+pymongo
+passlib
+python-jose
+uvicorn
+bcrypt
+aiofiles
