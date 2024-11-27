@@ -16,3 +16,4 @@ def startup_event():
         users_collection.insert_one({"username": "admin", "password": get_password_hash("admin123"), "role": "Admin"})
     if not users_collection.find_one({"username": "member"}):
         users_collection.insert_one({"username": "member", "password": get_password_hash("member123"), "role": "Member"})
+
